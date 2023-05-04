@@ -1,7 +1,9 @@
 {
+  "include": ["src/*"],
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
-    "sourceMap": true
+    "target": "ES3",
+    "module": "nodenext",
+    "outDir": "./dist",
+    "sourceMap": false
   }
 }
